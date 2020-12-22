@@ -1,0 +1,19 @@
+<h1>Keywords</h1>
+
+
+<form method="get"> {% csrf_token %}
+    <input type="text" name="keyword" id="keyword" placeholder="ingrese nombre">
+
+    <button type="submit">Buscar</button>
+</form>
+
+<h3>Lista resultados</h3>
+
+<ul>
+    {% for i in personas %}
+
+    <li>
+        {{ i }}
+    </li>
+    {% endfor %}
+</ul>
