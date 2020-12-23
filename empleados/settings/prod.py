@@ -10,6 +10,7 @@ DEBUG = True
 
 ALLOWED_HOSTS = ['*']
 
+
 # Database
 # https://docs.djangoproject.com/en/3.1/ref/settings/#databases
 
@@ -33,3 +34,4 @@ STATIC_ROOT = BASE_DIR.child('staticfiles')
 
 MEDIA_URL = '/media/'
 MEDIA_ROOT = BASE_DIR.child('media')
+
